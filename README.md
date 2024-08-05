@@ -16,4 +16,4 @@ This project aims to predict the success of students based of various features u
 - A Random Forest Regressor model is trained to compare preformance with the neural network model.
 
 ## Evaluation
-The Neural Network model is evaluated based on Loss (2.43153-04)and Accuracy (1.00) and the Random Forest model is evaluated based on Mean Squared Error (0.0) and R-Squared Score (1.0). Due to both models achieving perfect accuracy on the test set, there is potential for overfitted data or data leakage.
+The Neural Network model is evaluated based on Loss (2.43153e-04)and Accuracy (1.00) and the Random Forest model is evaluated based on Mean Squared Error (0.0) and R-Squared Score (1.0). Due to both models achieving perfect accuracy on the test set, there is potential for overfitted data or data leakage.
