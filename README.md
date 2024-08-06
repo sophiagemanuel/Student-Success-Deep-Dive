@@ -2,7 +2,7 @@
 
 This project aims to predict the success of students based of various features using different machine learning models. This dataset used in this project is StudentsPerformance.csv found from [Kaggle](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams/data), which includes information about student demographics, parent education levels, lunch types, preparation courses, and scores in math, reading, and writing. 
 
-## Data Preperation
+## Data Preparation 
 
 1. Load the Dataset: Reading the CSV file into a DataFrame.
 2. Check for Missing Values: Ensure there are no missing values with .isnull.sum()
