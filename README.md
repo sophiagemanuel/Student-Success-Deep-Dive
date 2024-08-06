@@ -8,7 +8,7 @@ This project aims to predict the success of students based of various features u
 2. Check for Missing Values: Ensure there are no missing values with .isnull.sum()
 3. Encode Categorical Variables: Use one-hot coding for categorical variables.
 4. Normalize Numerical Variables: Standardize numerical features.
-5. Create Target Variable: Define 'success' as a student having an average socre of above 70.
+5. Create Target Variable: Define 'success' as a student having an average score of above 70.
 6. Split the Data: Split the data into training and testing sets.
 
 ## Model Training
