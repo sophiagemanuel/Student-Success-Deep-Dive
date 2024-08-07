@@ -1,6 +1,6 @@
-# Student Success Prediction
+# Student Success Deep Dive
 
-This project aims to predict the success of students based of various features using different machine learning models. This dataset used in this project is StudentsPerformance.csv found from [Kaggle](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams/data), which includes information about student demographics, parent education levels, lunch types, preparation courses, and scores in math, reading, and writing. 
+This project aims to create a deep dive analysis of students based on various features using different machine learning models. This dataset used in this project is StudentsPerformance.csv found from [Kaggle](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams/data), which includes information about student demographics, parent education levels, lunch types, preparation courses, and scores in math, reading, and writing. 
 
 ## Data Preparation 
 
@@ -17,3 +17,18 @@ This project aims to predict the success of students based of various features u
 
 ## Evaluation
 The Neural Network model is evaluated based on Loss (2.43153e-04)and Accuracy (1.00) and the Random Forest model is evaluated based on Mean Squared Error (0.0) and R-Squared Score (1.0). Due to both models achieving perfect accuracy on the test set, there is potential for overfitted data or data leakage.
+
+## Data Analysis Using SparkSQL
+
+By conducting a detail analysis using SparkSQL, we can better understand the various factors influencing students success and further refine our models to ensure accuracy and generalizability. 
+
+## Results
+- Students who's parents education tended to have higher average reading and writing scores, but siimilar scores to other students in math. On average students who's parents completed highscool or some highshool had lower average scores in all three subjects.
+
+- Students who had reduced or free lunches had lower scores on average in all three subjects.
+
+- Students who completed test preparation courses had higher average scores in all three subjects.
+
+- Based on scores, female students had higher average reading and writing scores, while male students had higher average math scores.
+
+- On Average, White Students had the highest scores overall, and Native students had the lowest average scores.
