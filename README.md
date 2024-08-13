@@ -32,3 +32,7 @@ By conducting a detail analysis using SparkSQL, we can better understand the var
 - Based on scores, female students had higher average reading and writing scores, while male students had higher average math scores.
 
 - On Average, White Students had the highest scores overall, and Native students had the lowest average scores.
+
+
+## Presentation Link
+[Presentation](https://www.canva.com/design/DAGNChaWtG8/9w96h0OMf5jmJjL9ChiDjw/edit?utm_content=DAGNChaWtG8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
